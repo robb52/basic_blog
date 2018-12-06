@@ -1,0 +1,6 @@
+<%= simple_form_for(@blog) do |f| %>
+  <%= f.input :title,  placeholder: "Title", label: false  %>
+  <%= f.input :body,  placeholder: "Say it here", label: false %>
+  <%= f.button :submit, class: "submit btn" %>
+<% end %>
+

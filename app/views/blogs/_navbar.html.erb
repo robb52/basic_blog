@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="navbar-brand">
+    <%= link_to "Post", posts_path, class: "post" %>
+
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <div class="nav-link">
+
+        <%= link_to "Create Blog", blogs_new_path, class: "cb" %>
+          
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</nav>

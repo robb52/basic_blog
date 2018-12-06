@@ -1,0 +1,17 @@
+<%= render 'posts/navbar' %>
+
+<div class="card">
+
+  <% @posts.each do |post| %>
+
+    <div class="card-header">
+     <%= link_to post.title, post, class: "main title" %>
+   </div>
+    
+    <div class="card-body">
+      <%= post.body %>      
+    </div>
+
+  <% end %>
+
+</div>

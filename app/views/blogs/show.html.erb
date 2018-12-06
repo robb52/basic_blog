@@ -1,0 +1,21 @@
+<%= render 'blogs/navbar' %>
+
+<div class="card">
+
+   <div class="card-header show">
+    <%= @blog.title %>
+  </div>
+
+  <div class="card-body">
+    <%= @blog.body %>
+  </div>
+
+  <div class="card-footer">
+
+    <%= link_to "All Blogs", blogs_path, class: "all blogs btn" %>
+
+    <%= render 'blogs/shared', blog: @blog %>
+
+  </div>
+
+</div>

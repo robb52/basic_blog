@@ -1,0 +1,20 @@
+<%= render 'posts/navbar' %>
+
+<div class="card">
+
+  <div class="card-header show">
+    <%= @post.title %>
+  </div>
+
+  <div class="card-body">
+    <%= @post.body %>
+  </div>
+
+  <div class="card-footer">
+
+    <%= link_to "All Post", posts_path, class: "post link" %>
+
+    <%= render 'posts/shared', post: @post %>
+  </div>
+
+</div>

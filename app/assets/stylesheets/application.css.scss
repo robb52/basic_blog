@@ -1,0 +1,368 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Della+Respira|Permanent+Marker|Quattrocento');
+
+.container.blog {
+  padding-top: 20px;
+  background-color: #FFDD33;
+  border: 1px solid red;
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 18px red;
+}
+
+#blog_body.text.optional {
+  text-align: center;
+  width: 400px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.text.optional {
+  font-size: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  font-family: 'Della Respira', serif;
+}
+
+.string.optional {
+  padding-right: 5px;
+  font-size: 20px;
+  font-family: 'Della Respira', serif;
+}
+
+#blog_title.string.optional {
+  text-align: center;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.card-body {
+  margin-bottom: 10px;
+  box-shadow: 0 8px 6px -6px black;
+  font-family: 'Quattrocento', serif;
+}
+
+.card-header {
+  margin-top: 20px;
+  border-radius: 5px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.submit.btn {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  background-color: #FA5727;
+  -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.submit.btn:hover {
+  color: #F9420C;
+}
+
+a.back {
+  color: red;
+  text-decoration: none;
+}
+
+a.back:hover {
+  color: #F7EC05;
+}
+
+.main.title {
+  text-decoration: none;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.main.title:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.main.title:hover, .main.title:focus, .main.title:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.navbar.navbar-expand-lg {
+  background-color: #66E6FF;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+a.post {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  color: #FFFFFF;
+  font-family: 'Bowlby One', cursive;
+}
+
+a.cb{
+  color: white;
+  text-decoration: none;
+  font-family: 'Bowlby One', cursive;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-right: 50px;
+}
+
+.cb:hover {
+  color: #66E6FF;
+}
+
+.all.blogs.btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #069D22;
+  padding: 8px;
+  border-radius: 6px;
+  display: inline-block;
+  border: none;
+}
+
+.all.blogs.btn:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.delete.btn {
+  moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+  box-shadow:inset 0px 1px 0px 0px #f9eca0;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e));
+  background:-moz-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+  background:-webkit-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+  background:-o-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+  background:-ms-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+  background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e',GradientType=0);
+  background-color:#f0c911;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #e65f44;
+  display:inline-block;
+  cursor:pointer;
+  color:#c92200;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ded17c;
+}
+.delete.btn:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911));
+  background:-moz-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+  background:-webkit-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+  background:-o-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+  background:-ms-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+  background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911',GradientType=0);
+  background-color:#f2ab1e;
+}
+.delete.btn:active {
+  position:relative;
+  top:1px;
+}
+
+.edit.btn {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background: #0A7FF4;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.edit.btn:hover {
+  color: #FFFFFF;
+  border-radius: 50px;
+  border-color: #FFFFFF;
+  transition: all 0.3s ease 0s;
+}
+
+.card-header.show{
+  text-decoration: none;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.container.edit {
+  padding-top: 20px;
+  background-color: #FFDD33;
+  border: 1px solid red;
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 18px red;
+}
+
+.container.post {
+  padding-top: 20px;
+  background-color: #FFDD33;
+  border: 1px solid red;
+  text-align: center;
+  width: 500px;
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: 5px 10px 18px red;
+}
+
+#post_body.text.optional {
+  text-align: center;
+  width: 400px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#post_title.string.optional {
+  text-align: center;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.post.link {
+  position: relative;
+  padding: 5px 15px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none;  
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9;
+}
+ 
+.post.link:hover {
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+} 
+
+.post.edit {
+  position: relative;
+  padding: 5px 15px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none;  
+  background-color: #82BF56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644;
+}
+
+.post.edit:hover {
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+}
+
+.post.delete {
+  position: relative;
+  padding: 5px 15px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none; 
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.post.delete:hover {
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  border-bottom: 1px solid;
+}
+
+a.blog {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  color: #FFFFFF;
+  font-family: 'Bowlby One', cursive;
+}
+
+a.cp {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bowlby One', cursive;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-right: 50px;
+}
+
+a.cp:hover {
+  color: #66E6FF;
+}
+
+
+
+
+

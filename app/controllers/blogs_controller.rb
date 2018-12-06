@@ -8,16 +8,13 @@ class BlogsController < ApplicationController
   def show  
   end
 
-
   def new
     @blog = Blog.new
   end
 
-
   def edit  
   end
-
-  
+ 
   def create
     @blog = Blog.new(blog_params)
     if @blog.save

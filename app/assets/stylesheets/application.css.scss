@@ -194,6 +194,7 @@ a.cb{
   text-decoration:none;
   text-shadow:0px 1px 0px #ded17c;
 }
+
 .delete.btn:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911));
   background:-moz-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
@@ -204,6 +205,7 @@ a.cb{
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911',GradientType=0);
   background-color:#f2ab1e;
 }
+
 .delete.btn:active {
   position:relative;
   top:1px;

@@ -38,7 +38,6 @@ class PostsController < ApplicationController
     redirect_to posts_path, notice: "Post was deleted!"
   end
 
-
   private
 
   def set_post
